@@ -2,6 +2,9 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    color: var(--COEmY);
 }
 
 #page-container {
@@ -16,6 +19,52 @@ nav {
     align-items: center;
     padding: 6px;
     height: 60px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20;
+  color: black;
+}
+
+nav div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.lnav {
+    padding: 5px;
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#about {
+    margin-left: 15px;
+}
+
+.rnav {
+    padding: 5px;
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.elipses {
+   width: 25px;
+}
+
+#account {
+    margin-right: 15px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
 }
 
 .letter {
