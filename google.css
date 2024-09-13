@@ -31,6 +31,11 @@ nav {
   color: black;
 }
 
+#flask {
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
 nav div:last-child {
     display: flex;
     align-items: center;
@@ -56,15 +61,19 @@ nav div:last-child {
 
 .elipses {
    width: 25px;
+   padding-right: 5px;
+    margin-right: 5px;
 }
 
 #account {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .logos {
     display: flex;
     align-items: center;
+    padding: 5px;
+    margin: 0 5px;
 }
 
 .letter {
