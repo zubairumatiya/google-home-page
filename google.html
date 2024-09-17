@@ -6,6 +6,14 @@
     <title>Google Mimic</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,375;1,375&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&family=Red+Hat+Display:ital,wght@0,425;1,425&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="google.css">
 </head>
 <body>
@@ -21,9 +29,17 @@
                     <a href="#" class="rnav" id="images">Images</a>
                 </div>
                 <div class="logos">
-                    <a href="#"><span id="flask" class="material-symbols-outlined">experiment</span></a>
-                    <a href="#"><img id="apps" class="elipses" src="appsicon.png"></a>
-                    <a href="#"><span id="account" class="material-symbols-outlined">account_circle</span></a>
+                    <div class="flaskspacer">
+                        <a href="#"><span id="flask" class="material-symbols-outlined">experiment</span></a>
+                    </div>
+                    <div class="appspacer1">
+                        <div class="appspacer2">
+                            <a href="#"><img id="apps" class="elipses" src="appsicon.png"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><span id="account" class="material-symbols-outlined">account_circle</span></a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -37,13 +53,14 @@
                 <h1 class="letter" id="e">e</h1>
             </div>
         </section>
-        <section>
             <div class="buttons">
-                <form action="#">
+                <form action="#" name="forum">
                     <input type="search" class:="search">
                     <br>
-                    <input type="submit" class="butt" value="Google Search" id="search">
-                    <input type="submit" class="butt" value="I'm Feeling Lucky" id="lucky">
+                    <div class="buttons2">
+                        <input type="submit" class="butt" role="button" value="Google Search" id="search">
+                        <input type="submit" class="butt" role="button" value="I'm Feeling Lucky" id="lucky">
+                    </div>
                 </form>
             </div>
         </section>
@@ -55,7 +72,7 @@
                 <a href="#" class= "lfoot" id="hsw">How Search works</a>
             </div>
             <div class="footercent">
-                <a href="#" id="climatemessage">Our third decade of climate action: join us</a>
+                <a href="#" class="cfoot" id="climatemessage">Our third decade of climate action: join us</a>
             </div>
             <div class="footerright">
                 <a href="#" class= "rfoot" id="privacy">Privacy</a>
