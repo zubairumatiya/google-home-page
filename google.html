@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Mimic</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,11 +29,11 @@
                 </div>
                 <div class="logos">
                     <div class="flaskspacer">
-                        <a href="#"><span id="flask" class="material-symbols-outlined">experiment</span></a>
+                        <a href="#" title="Search Labs"><span id="flask" class="material-symbols-outlined">experiment</span></a>
                     </div>
                     <div class="appspacer1">
                         <div class="appspacer2">
-                            <a href="#"><img id="apps" class="elipses" src="appsicon.png"></a>
+                            <a href="#" title="Google apps"><img id="apps" class="elipses" src="appsicon.png"></a>
                         </div>
                     </div>
                     <div>
@@ -55,11 +54,33 @@
         </section>
             <div class="buttons">
                 <form action="#" name="forum">
-                    <input type="search" class:="search">
-                    <br>
-                    <div class="buttons2">
-                        <input type="submit" class="butt" role="button" value="Google Search" id="search">
-                        <input type="submit" class="butt" role="button" value="I'm Feeling Lucky" id="lucky">
+                    <div class="snb">
+                        <div class="search">
+                            <div class="searchwrap">
+                                <div class="searchicon">
+                                    <div>
+                                        <span class="material-symbols-outlined">search</span>
+                                    </div>
+                                </div>
+                                <div class="textual">
+                                    <textarea name="searchbox" id="searchbox" class="searchbox" autofocus title="Search" aria-label="Search"></textarea>
+                                </div>
+                                <div class="micncamera">
+                                    <div class="voicesearch">
+                                        <a href="#" title="Search by voice"><span class="material-symbols-outlined">mic</span></a>
+                                    </div>
+                                    <div class="imagesearch">
+                                        <a href="#" title="Search by image"><span class="material-symbols-outlined">photo_camera</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="centerbutt">
+                            <div class="buttons2">
+                                <input type="submit" class="butt" role="button" value="Google Search" id="search">
+                                <input type="submit" class="butt" role="button" value="I'm Feeling Lucky" id="lucky">
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
